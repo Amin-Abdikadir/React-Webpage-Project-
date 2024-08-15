@@ -1,14 +1,16 @@
 .textAndPhoto {
     padding: 1em;
-    background-color: rgba(221, 148, 13, 0.884);
-    height: 32em;
+    background-color: orange;
+    height: 35em;
     margin: 0 0 2em 0;
 }
 
 .photoFounders {
-    padding: 2em 0 3em 0;
+    padding: 0;
+    height: 21em;
+    width: 21em;
 }
 
 .sectionImage{
-    margin: 0 0 4em 0;
+    margin: 0 0 1em 0;
 }
