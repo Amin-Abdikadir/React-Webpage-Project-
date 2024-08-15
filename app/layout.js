@@ -20,9 +20,13 @@ export const metadata = {
         <meta name="description" content={metadata.description} />
       </head>
       <body className={aleo.className}>
+
         <Header />
+
         {children}
+        
         <Footer />
+
       </body>
     </html>
   );
