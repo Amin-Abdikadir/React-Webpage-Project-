@@ -25,7 +25,7 @@ export default function MenuPage () {
     <div className={styles.massiveOrangeBox}>
         <div className={styles.ButtonAndLinks}>
 
-            <button onClick = {closeHandler} className={styles.closeMenu}>
+            <button onClick= {closeHandler} className={styles.closeMenu}>
                 <Image
                 src="/images/menu-close-button.png"
                 alt="menu-close-button"

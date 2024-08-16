@@ -1,6 +1,6 @@
 "use client";
 import MenuPage from "@/src/components/MenuPage/MenuPage";
-import styles from './header.module.css'
+import styles from './Header.module.css'
 import Image from 'next/image';
 import {useState} from 'react';
 
@@ -19,7 +19,7 @@ const [toggle, setToggle] = useState(false);
 
       <h1 className={styles.title}>🔥 Fireplace Palace</h1>
 
-      <button onClick = {clickHandler} className={styles.buttonMenu}>
+      <button onClick= {clickHandler} className={styles.buttonMenu}>
         <Image
           src="/images/menu-open-button.png"
           alt="menu-open-button"
