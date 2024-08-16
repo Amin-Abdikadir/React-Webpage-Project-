@@ -10,6 +10,7 @@ const [toggle, setToggle] = useState(false);
 
  function clickHandler() {
   setToggle(!toggle)
+  
   console.log(toggle)
  };
 
@@ -28,6 +29,7 @@ const [toggle, setToggle] = useState(false);
         />
       </button>
       {toggle && <MenuPage/>}
+
       </header>
   );
 };
