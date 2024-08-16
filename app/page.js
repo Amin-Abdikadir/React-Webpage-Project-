@@ -1,5 +1,4 @@
-import Main from "@/src/components/Main/Main";
-import Link from "next/link";
+import Main from "/src/components/Main/Main";
 
 export default function Home() {
     return (

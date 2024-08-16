@@ -12,7 +12,7 @@ export default function MenuPage () {
 
     function closeHandler() {
      setIsOpen(!isOpen)
-     console.log(isOpen)
+     
     };
 
     if (!isOpen) {
@@ -32,7 +32,7 @@ export default function MenuPage () {
                 className={styles.buttonImage}
                 width={60}
                 height={60} 
-            />
+                />
             </button>
 
             <Link onClick={closeHandler} href="/" className={styles.menuText}>Home</Link>
