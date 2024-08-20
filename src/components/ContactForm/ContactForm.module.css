@@ -28,3 +28,14 @@
     background-color: #F0901B;
     border: none;
 }
+
+.ContactText {
+    position: relative;
+    right: 1em;
+    padding: 1em 0 1em 0;
+
+
+    background-color: white; 
+    width: 100vh;
+   
+}
