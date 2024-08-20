@@ -1,4 +1,6 @@
+import ContactForm from "@/src/components/ContactForm/ContactForm";
 import styles from "./page.module.css";
+
 
 
 
@@ -9,24 +11,8 @@ import styles from "./page.module.css";
 
                 <h4>Personal Information</h4>
 
-                <form className={styles.FormBox}>
-                  <label className={styles.Labels}>
-                      Full Name:
-                      <input type= "text"/>
-                  </label>
-                  <label className={styles.Labels}>
-                      Postcode:
-                      <input type= "text"/>
-                  </label>
-                  <label className={styles.Labels}>
-                      House/Flat number and street Name
-                      <input type= "text"/>
-                  </label>
-                  <label className={styles.Labels}>
-                      City:
-                      <input type= "text"/>
-                  </label>
-                </form>
+                <ContactForm />
+
 
                 <h4>Contact information</h4>
 

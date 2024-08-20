@@ -1,0 +1,30 @@
+.SupaContainer{
+    display: grid;
+    justify-content: left;
+    padding: 1em;
+}
+
+.FirstBox
+{
+    background-color: #F0901B;
+    padding: 0.5em;
+}
+
+.FormBox{
+    display: grid;
+    background-color: #E5E5E5;
+    padding: 1em;
+
+}
+
+.Labels{
+    padding: 0.4em 0;
+}
+
+.Button{
+    font-weight: 400;
+    margin: 2em 0 0 0;
+    padding: 0.5em 1em;
+    background-color: #F0901B;
+    border: none;
+}
