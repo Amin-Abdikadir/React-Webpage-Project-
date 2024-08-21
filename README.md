@@ -29,8 +29,22 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Vercel 
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Advice:
+Make. A. Plan. 👈👈👈 (after each step, write down "Now check it works")
+
+Here's a solid high level plan:
+
+Check everyone understands the basics of using useReducer. ✅
+
+Move your code over to useReducer. Do not add a single new feature to begin with. It's not easy moving to reducer, don't make it harder.
+
+Once the form does exactly what it did before but using useReducer - move on to add some of the new functionality like a loading indicator into your state. You can make the handle submit dispatch an action to say the form is submitting, then simulate waiting for 2 seconds (useTimeout maybe), then dispatch another action to say form submitted successfully.
+
+Now continue to add more features ... like disabling the form while it's submitting, or more granular errors.
