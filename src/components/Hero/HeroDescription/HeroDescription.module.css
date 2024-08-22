@@ -7,6 +7,10 @@
   font-size: 32px;
   font-weight: bold;
   padding: 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: sp ;
+  
 }
 .consultationParagraph {
   font-size: 24px;
@@ -15,6 +19,17 @@
 }
 .numberSpan {
   color: #fff2e4;
+}
+
+.ConsultationButton {
+  width: 80%;
+  padding: 0.5em 1em;
+  font-family: Aleo;
+  font-size: 0.8em;
+  /*margin: 1em 0 1em 0.5em;*/
+  
+
+  
 }
 
 @media (min-width: 1024px) {
@@ -26,6 +41,6 @@
   .consultationParagraph {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 10px; 
   }
 }
