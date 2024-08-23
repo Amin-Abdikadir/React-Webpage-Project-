@@ -7,7 +7,8 @@ import styles from "./styles.module.css";
 const initialState = {
   data: {
     fullName: "",
-    postcode: "", 
+    postcode: "",
+    House: "",
   },
   status: "editing",
 };
@@ -25,17 +26,17 @@ function reducer(state, action) {
     case "ERROR":
       return {
         ...state,
-        status: "error",
+        status: "There was an error because you didn't fill in all the fields.",
       };
     case "FORM_SUBMITTING":
       return {
         ...state,
-        status: "submitting",
+        status: "Submitting, just wait a sec :)",
       };
     case "FORM_SUCCESS":
       return {
         ...state,
-        status: "success",
+        status: `Well done, your request has been accepted, and you'll be contacted within 24 hours for an assistant to visit your home.`
       };
     default:
       return state;
@@ -181,7 +182,9 @@ export default function ContactFormOne() {
         Request Design Consultation
       </button>
 
-      {state.status}
+      <div className={styles.statusDisplay}>
+  {state.status}
+</div>
     </form>
   );
 }

@@ -44,5 +44,16 @@
 }
 
 .error {
+  font-size: 1em;
   color: red;
+  text-align: center;
+}
+
+.statusDisplay{
+  font-weight: 500;
+  padding: 1em;
+  font-size: 1em;
+  text-align: center;
+  color: green;
+  box-shadow: green;
 }
