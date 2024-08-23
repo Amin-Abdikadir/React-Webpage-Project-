@@ -126,10 +126,53 @@ export default function ContactFormOne() {
             className={styles.input}
           />
         </label>
+        <label className={styles.inputGroup}>
+          House/flat number and Street Name:
+          <input
+            type="text"
+            name="House"
+            onChange={(event) => handleChange(event)}
+            value={state.data.House}
+            className={styles.input}
+          />
+        </label>
+        <label className={styles.inputGroup}>
+          City:
+          <input
+            type="text"
+            name="City"
+            onChange={(event) => handleChange(event)}
+            value={state.data.City}
+            className={styles.input}
+          />
+        </label>
       </fieldset>
 
       <fieldset className={styles.group}>
         <legend className={styles.groupTitle}>Contact Info:</legend>
+
+        <label className={styles.inputGroup}>
+          Phone number:
+          <input
+            type="number"
+            name="PhoneNumber"
+            onChange={(event) => handleChange(event)}
+            value={state.data.PhoneNumber}
+            className={styles.input}
+          />
+        </label>
+
+        <label className={styles.inputGroup}>
+          Email:
+          <input
+            type="email"
+            name="Email"
+            onChange={(event) => handleChange(event)}
+            value={state.data.Email}
+            className={styles.input}
+          />
+        </label>
+
       </fieldset>
 
       {state.status === "error" && <p className={styles.error}>Error</p>}

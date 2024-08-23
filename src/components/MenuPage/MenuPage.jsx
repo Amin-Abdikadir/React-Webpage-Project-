@@ -37,6 +37,10 @@ export default function MenuPage () {
 
             <Link onClick={closeHandler} href="/" className={styles.menuText}>Home</Link>
             <Link onClick={closeHandler} href="/founders" className={styles.menuText}>Meet the Founders</Link>
+            <Link onClick={closeHandler} href="/DesignBooking" className={styles.menuText}>Book a consultation</Link>
+
+
+
         </div>
         <div className={styles.emptyDiv}></div>
 

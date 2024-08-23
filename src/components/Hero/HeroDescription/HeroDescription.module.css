@@ -22,14 +22,17 @@
 }
 
 .ConsultationButton {
-  width: 80%;
-  padding: 0.5em 1em;
+  padding: 0.5em 9em;
   font-family: Aleo;
   font-size: 0.8em;
-  /*margin: 1em 0 1em 0.5em;*/
-  
+}
 
-  
+.ButtonBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0 0 0;
+
 }
 
 @media (min-width: 1024px) {
